@@ -1,0 +1,100 @@
+@media screen and (min-width: 480px) {
+    
+    #header-img{
+        
+        background-color: silver;
+       
+    }
+   .nav{
+    background-color: silver;
+     position: fixed;
+     padding: 16px;
+     width: 100%;
+   }
+   .nav-link{
+       text-decoration: none;
+       color: black;
+       float: right;
+       margin-right: 70px;
+   flex-direction: row-reverse;
+
+   }
+   .nav-link:hover{
+    background-color: gray;
+   }
+         
+   
+   .lorry{
+        width: 40px;
+        height: 40px;
+}
+.fire{
+    width: 40px;
+    height: 40px;
+}
+.battery{
+    width: 40px;
+    height: 40px;
+}
+#product{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 100%;
+    
+}
+#product1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+    margin: auto;
+    text-align: center;
+font-family: arial;
+}
+
+#product2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+#product3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+    margin: auto;
+        text-align: center;
+        font-family: arial;
+    }
+    #chaplain{
+    height: auto;
+    width: 50%;
+}
+#trevor{
+    width: 50%;
+    height: auto;
+}
+#bean{
+    width: 70%;
+    height: auto;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+font-size: 18px;
+} 
+
+#video{
+    margin-left: 190px;
+    padding: 250px;
+    
+}
+
+
+}

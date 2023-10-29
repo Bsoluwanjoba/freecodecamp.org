@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./survey.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">This is a survey form for your experience in UnivelCity</p>
+
+        </div>
+
+        <form id="survey-form">
+            
+
+          
+
+           
+            <ul>
+                <li>
+                    <label for="name" id="name-label">Fullname</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your fullname" required> 
+                </li>
+                <li>
+                    <label for="mail" id="email-label">Email</label>
+                    <input type="email" name="mail" id="email" placeholder="Enter your Email" required> 
+                </li>
+                <li>
+                    <label for="ag" id="number-label">Age(optional)</label>
+            <input type="number" name="no" id="number" min="10" max="30" placeholder="Age"> 
+                </li>
+                <li>
+                   <label for="feature">Which option best describes your current role?</label> <br>
+                   <select name="dp" id="dropdown">
+                    <optgroup label="Select current role" >
+                     <option value="st">Student</option>
+                     <option value="fj">Fulltime Job</option>
+                     <option value="fl">Fulltime Learner</option>
+                     <option value="ps">Prefer Not To Say</option>
+                     <option value="ot">Others</option>
+                    </optgroup>
+                   </select> 
+                </li>
+                <li>
+                 <label for="oo">Would you recommend univel to a friend?
+                 </label>
+                </li>
+                <li>
+                
+                    <input type="radio" name="pp" id="pp" value="Definitely">
+                    <label for="pp">Definitely</label><br>
+                    <input type="radio" name="pp" id="pr" value="Maybe">
+                    <label for="pr">Maybe</label><br>
+                    <input type="radio" name="pp" id="pt" value="Not Sure">
+                    <label for="pt">Not Sure</label>
+                </li>
+                <li>
+                <label for="ff">What is your favorite feature of univelCity?</label> <br>
+                <select name="mm" id="mm">
+                    <optgroup label="Select an option">
+                        <option value="ch">Challenges</option>
+                        <option value="prr">Project</option>
+                        <option value="cm">Community</option>
+                        <option value="os">Open Source</option>
+                    </optgroup>
+                </select>
+                </li>
+                <li>
+                <label for="label">What would you like to see improved? (Check all that apply)</label>
+                </li>
+                <li>
+                <input type="checkbox" name="fep" id="fp" value="Front-end Projects">
+                <label for="fp">Front-end Projects</label><br>
+                <input type="checkbox" name="bep" id="fp1" value="Back-end Projects">
+                <label for="fp1">Back-end Projects</label><br>
+                <input type="checkbox" name="dv" id="fp2" value="Data Visualization">
+                <label for="fp2">Data Visualization</label><br>
+                <input type="checkbox" name="c" id="fp3" value="Challenges">
+                <label for="fp3">Challenges</label><br>
+                <input type="checkbox" name="osc" id="fp4" value="Open Source Community">
+                <label for="fp4">Open Source Community</label><br>
+                <input type="checkbox" name="ghr" id="fp5" value="Gitter help rooms">
+                <label for="fp5">Gitter help rooms</label><br>
+                <input type="checkbox" name="v" id="fp6" value="Videos">
+                <label for="fp6">Videos</label><br>
+                <input type="checkbox" name="cm" id="fp7" value="City Meetups">
+                <label for="fp7">City Meetups</label><br>
+                <input type="checkbox" name="w" id="fp8" value="Wiki">
+                <label for="fp8">Wiki</label><br>
+                <input type="checkbox" name="f" id="fp9" value="Forum">
+                <label for="fp9">Forum</label><br>
+                <input type="checkbox" name="ac" id="fp10" value="Additional Courses">
+                <label for="fp10">Additional Courses</label>
+                </li>
+
+                <li>
+                    <label for="comm">Any comments or suggestions?</label><br>
+                    <textarea name="textone" id="text" cols="45" rows="6" placeholder="Enter your text"></textarea>
+                </li>
+
+                <input type="submit" value="Submit" id="submit">
+            </ul>
+        </form>
+    </main>
+</body>
+</html>

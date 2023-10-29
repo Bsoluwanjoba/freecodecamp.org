@@ -1,0 +1,15 @@
+{
+  "name": "freecodecamp.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./bit.css -o ./kreator.css --watch"
+  },
+  "author": "kreator",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}

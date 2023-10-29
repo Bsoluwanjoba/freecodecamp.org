@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px) {
+    #navbar{
+        position: fixed;
+        background-color: black;
+        height: 60px;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+
+    #navbar a{
+        float: right;
+        align-content: center;
+    }
+
+    }
+
