@@ -6,8 +6,16 @@
     <title>Survey Form</title>
     <link rel="stylesheet" href="./survey.css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <style>
+        body{
+            font-family: 'Poppins';font-size: 13px;
+        }
+    </style>
 </head>
 <body>
+   <!-- ::before -->
     <main>
         <div>
             <h1 id="title">Survey Form</h1>
@@ -73,7 +81,7 @@
                 <li>
                 <label for="label">What would you like to see improved? (Check all that apply)</label>
                 </li>
-                <li>
+                <li class="props">
                 <input type="checkbox" name="fep" id="fp" value="Front-end Projects">
                 <label for="fp">Front-end Projects</label><br>
                 <input type="checkbox" name="bep" id="fp1" value="Back-end Projects">
@@ -103,7 +111,7 @@
                     <textarea name="textone" id="text" cols="45" rows="6" placeholder="Enter your text"></textarea>
                 </li>
 
-                <input type="submit" value="Submit" id="submit">
+               <button type="submit" id="submit">Submit</button>
             </ul>
         </form>
     </main>
